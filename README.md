@@ -30,6 +30,7 @@ Or view on Netlify: https://skiddle-test.netlify.app/
 ## Improvements
 
 With more time I would like to:
+- Add load more feature / pagination to load next 20 results
 - Implement unit testing
 - Add pre-commit hooks to lint code
 - Expand further with content and styling of details pages
