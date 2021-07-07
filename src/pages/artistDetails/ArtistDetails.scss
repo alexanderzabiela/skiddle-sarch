@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+
+.artistDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artistImage {
+  width: 100%;
+
+  @media screen and (min-width: $desktop) {
+    width: 300px;
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+button {
+  width: 100%;
+  padding: $core-padding;
+  border: none;
+  color: $core-color-foreground;
+  cursor: pointer;
+}
+
+.active {
+  background-color: $core-color-brand;
+
+  &:hover {
+    background-color: lighten($core-color-brand, 10%);
+  }
+}
+
+.cancelled {
+  background-color: $core-color-cancelled;
+  &:hover {
+    background-color: lighten($core-color-cancelled, 10%);
+  }
+}

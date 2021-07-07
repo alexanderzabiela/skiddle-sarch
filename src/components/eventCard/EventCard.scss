@@ -1,0 +1,46 @@
+@import "../../variables.scss";
+
+.card {
+  margin-top: $core-margin * 2;
+  margin-bottom: $core-margin;
+  padding-bottom: $core-padding * 2;
+  width: 100%;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 440px;
+
+  @media screen and (min-width: $desktop) {
+    width: 300px;
+    height: 440px;
+    margin: $core-margin * 2;
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card_title {
+  font-weight: 800;
+  font-size: $h3;
+  margin-top: 0;
+}
+
+.card_image {
+  display: flex;
+  height: 200px;
+  background-size: cover;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: $core-padding * 2.5;
+  height: 50%;
+  @media screen and (min-width: $desktop) {
+    height: 46%;
+  }
+}

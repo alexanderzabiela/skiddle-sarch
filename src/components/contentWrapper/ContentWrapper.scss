@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  background-color: $core-color-brand;
+}
+
+.logo {
+  width: 200px;
+}
