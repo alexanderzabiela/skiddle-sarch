@@ -18,7 +18,7 @@ Run by navigating to command line / terminal and entering:
 ```bash
 npm start
 ```
-Navigate to http://localhost:3000/ and imply type in the name of an event/artist/location to find relevant events.
+Navigate to http://localhost:3000/ and simply type in the name of an event/artist/location to find relevant events.
 
 Or view on Netlify: https://skiddle-test.netlify.app/
  
